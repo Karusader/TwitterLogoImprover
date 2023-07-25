@@ -83,8 +83,11 @@ function randomizeLogo(){
   //  logo[i].outerHTML = num[0];
   //}
   //replaced every SVG on the page, very funny, but i couldnt get the side bar to load back in :(
-  logo2[0].outerHTML = num[0];
-  logo[0].outerHTML = num[0];
+   if (logo[0] != null) {
+      logo[0].outerHTML = num[0];
+    } else {
+      logo2[0].outerHTML = num[0];
+    }
 }
 
 randomizeLogo()
