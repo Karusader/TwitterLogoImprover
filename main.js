@@ -74,7 +74,7 @@ letter[25] = ["<svg width=\"11\" height=\"35.65\" viewBox=\"0 0 11 35.65\" xmlns
 
 
 logo = document.getElementsByClassName("r-yyyyoo")
-
+logo2 = document.getElementsByClassName("r-s8bhmr")
 //console.log(logo[0].outerHTML)
 
 function randomizeLogo(){
@@ -83,6 +83,7 @@ function randomizeLogo(){
   //  logo[i].outerHTML = num[0];
   //}
   //replaced every SVG on the page, very funny, but i couldnt get the side bar to load back in :(
+  logo[1].outerHTML = num[0];
   logo[0].outerHTML = num[0];
 }
 
