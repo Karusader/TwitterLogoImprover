@@ -4,10 +4,11 @@
 // @match       https://*twitter.com/*
 // @grant       none
 // @version     1.0.0
+// @homepage    https://github.com/Karusader/TwitterLogoImprover
 // @updateURL   https://raw.githubusercontent.com/Karusader/TwitterLogoImprover/main/VERSION
 // @downloadURL https://raw.githubusercontent.com/Karusader/TwitterLogoImprover/main/main.js
 // @author      Karusader
-// @issues      https://github.com/Karusader/TwitterLogoImprover/issues
+// @supportURL  https://github.com/Karusader/TwitterLogoImprover/issues
 // @description X is a terrible name for a company
 // @run-at document-idle
 // ==/UserScript==
